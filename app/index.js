@@ -5,7 +5,7 @@ const router = require('./routes')
 
 const app = express()
 app.use(cors())
-const port = 80
+const port = 3021
 
 app.use(router)
 
